@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paga Poco</title>
+    <link rel="stylesheet" href="Paga poco.css">
+    <script src="Paga poco.js" defer></script>
+</head>
+<body>
+
+<div id="caja1" class="form-container">
+    <h2>Insertar en el registro</h2>
+    <form id="formulario" name="fdatos" onsubmit="calcular(); return false;">
+        <label for="name">Nombre del cliente:</label>
+        <input type="text" id="nombrecliente" name="name" required> 
+        <br><br>
+
+        <label for="cupon">Seleccione cupones y cantidades:</label><br>
+
+        <input type="checkbox" name="cupon" value="40">1. Restaurante Benihana $40
+        <input type="number" id="cantidadBenihana" name="cantidadBenihana" min="0" value="0"><br>
+
+        <input type="checkbox" name="cupon" value="60">2. Restaurante Bennigans $60
+        <input type="number" id="cantidadBennigans" name="cantidadBennigans" min="0" value="0"><br>
+
+        <input type="checkbox" name="cupon" value="100">3. Sala de belleza Vidals $100
+        <input type="number" id="cantidadVidals" name="cantidadVidals" min="0" value="0"><br>
+
+        <input type="checkbox" name="cupon" value="125">4. Clínica y Spa Framesi $125
+        <input type="number" id="cantidadFramesi" name="cantidadFramesi" min="0" value="0"><br>
+
+        <br><br>
+        <input type="submit" value="Enviar" onclick="calcular()">
+    </form>
+</div>
+</body>
+</html>

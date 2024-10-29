@@ -1,0 +1,27 @@
+body{
+
+    background-image: url("flor.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100;
+    margin: 0;
+}
+
+table ,th,td{
+    border: 5px solid rgba(0, 0, 0, 0.651);
+    border-collapse: collapse;
+    background-color: rgba(240, 9, 117, 0.13);
+    
+}
+  
+th,td{
+    padding: 5px;
+}
+th{
+    text-align: center;
+}

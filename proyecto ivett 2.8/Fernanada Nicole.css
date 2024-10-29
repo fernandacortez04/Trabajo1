@@ -1,0 +1,27 @@
+body{
+
+    background-image: url("girasol.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100;
+    margin: 0;
+}
+
+table ,th,td{
+    border: 5px solid rgba(17, 17, 17, 0.671);
+    border-collapse: collapse;
+    background-color: rgba(184, 123, 43, 0.199);
+    
+}
+  
+th,td{
+    padding: 5px;
+}
+th{
+    text-align: center;
+}

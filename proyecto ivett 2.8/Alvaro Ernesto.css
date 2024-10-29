@@ -1,0 +1,28 @@
+body{
+
+    background-image: url("ar.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100;
+    margin: 0;
+}
+
+table ,th,td{
+    border: 5px solid rgba(90, 42, 42, 0.418);
+    border-collapse: collapse;
+    background-color: rgba(163, 135, 135, 0.274);
+    
+    
+}
+  
+th,td{
+    padding: 5px;
+}
+th{
+    text-align: center;
+}

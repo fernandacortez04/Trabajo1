@@ -1,0 +1,26 @@
+body{
+
+  
+    background-image: url("campo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100;
+    margin: 0;
+}
+
+table ,th,td{
+    border: 3px solid rgb(7, 219, 247);
+    background-color: rgba(235, 126, 23, 0.171);
+    
+}
+  
+th,td{
+    padding: 5px;
+}
+th{
+    text-align: center;
+}
